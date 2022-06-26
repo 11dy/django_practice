@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'pybo.apps.PyboConfig',#pybo/apps.py에 위치한 클래스. pybo 앱 생성시 자동으로 만들어짐
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
